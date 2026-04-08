@@ -1,0 +1,19 @@
+### model
+model_name_or_path: /disk1/gongzhaoyan/Second/LLaMA-Factory/saves/llama3.1-8b-it/full/sft/checkpoint-126
+adapter_name_or_path: 
+trust_remote_code: true
+
+### method
+finetuning_type: full
+
+### dataset
+task: ceval_validation  # choices: [mmlu_test, ceval_validation, cmmlu_test]
+template: fewshot
+lang: zh
+n_shot: 5
+
+### output
+save_dir: saves/sft/cevaleval
+
+### eval
+batch_size: 4
