@@ -1,0 +1,12 @@
+{
+  "total_examples": 386787,
+  "num_qtypes": 6,
+  "qtype_distribution": {
+    "equal": 135890,
+    "before_last": 43107,
+    "before_after": 75340,
+    "first_last": 72252,
+    "after_first": 43305,
+    "equal_multi": 16893
+  }
+}
